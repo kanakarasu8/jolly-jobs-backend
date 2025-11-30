@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d917653-b728-40d2-9bca-43bd3cd47da1" name="Changes" comment="docker">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Dockerfile" afterDir="false" />
     </list>
@@ -13,6 +12,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,23 +27,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.userservice.executor": "Run",
-    "Maven.apigateway [-pl,userservice,-am,clean...].executor": "Run",
-    "Maven.apigateway [clean,package,-DskipTests].executor": "Run",
-    "Maven.apigateway [spring-boot:run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Kanagu_Yaazhtech/React_Development/jolly-jobs-backend",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.userservice.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [-pl,userservice,-am,clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [clean,package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jolly-jobs-backend [-pl,userservice,-am...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Kanagu_Yaazhtech/React_Development/jolly-jobs-backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn spring-boot:run " />
@@ -49,6 +53,8 @@
       <command value="mvn -pl userservice -am clean package -DskipTests " />
       <command value="cd userservice" />
       <command value="cd cd userservice" />
+      <command value="mvn clean install" />
+      <command value="mvn -pl userservice -am clean package " />
     </option>
   </component>
   <component name="RunManager">
