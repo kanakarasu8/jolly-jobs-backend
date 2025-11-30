@@ -5,6 +5,8 @@ WORKDIR /app
 # Copy entire project
 COPY userservice /app
 
+RUN mvn -e -X -U dependency:purge-local-repository -DmanualInclude="org.apache.httpcomponents:httpcore5"
+
 # Build jar
 RUN mvn clean package -DskipTests
 
